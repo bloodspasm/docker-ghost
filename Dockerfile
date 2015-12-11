@@ -96,4 +96,4 @@ WORKDIR /ghost
 CMD ["bash", "/ghost-start"]
 
 # Expose ports.
-EXPOSE 2368
+EXPOSE 2368 22 80 3306
